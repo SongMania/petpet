@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "RixInooAriDuriR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ONE-Mobile-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.mypageContent {
+  width: 100%;
+}
+.mypageSubtitle {
+  margin: 60px 0 20px 0;
+  font-family: "ONE-Mobile-Regular";
+  font-size: 2.5em;
+  color: #505050;
+}
+.buyHistory {
+  width: 100%;
+  height: 300px;
+  margin: 20px 0;
+}
+.famProduct {
+  width: 100%;
+  height: 300px;
+  margin: 20px 0;
+}
+.proBox {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  padding-top: 5px;
+  background-color: #fff5ff;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+  font-family: "ONE-Mobile-Regular";
+  font-size: 1.2em;
+  color: #505050;
+  text-align: center;
+}
+.proSub1 {
+  width: 15%;
+  height: 100%;
+}
+.proSub2 {
+  width: 55%;
+  height: 100%;
+}
+.proSub3 {
+  width: 15%;
+  height: 100%;
+}
+.proSub4 {
+  width: 15%;
+  height: 100%;
+}
+.bhBox {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+}

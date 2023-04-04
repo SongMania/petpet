@@ -19,44 +19,46 @@
             </div>
             <div class="memberTop2">회원가입</div>
         </div>
-        <div class="memberBox">
-            <div class="inputBar">
-                <input type="text" placeholder="아이디를 입력해주세요" class="idInput"/>
-            </div>
-            <div class="inputBar">
-                <input type="password" placeholder="비밀번호" class="passInput"/>
-            </div>
-            <div class="inputBar">
-                <input type="password" placeholder="비밀번호 확인" class="passInput"/>
-            </div>
-            <div class="inputBar">
-                <input type="text" placeholder="이름" class="idInput"/>
-            </div>
-            <div style="display: flex;">
-                <div class="inputBar1">
-                    <b>010 - </b>
+        <div class="bmemberBox">
+            <div class="memberBox">
+                <div class="inputBar">
+                    <input type="text" placeholder="아이디를 입력해주세요" class="idInput"/>
                 </div>
-                <div class="inputBar2">
-                    <input type="text" placeholder="전화번호" class="idInput"/>
+                <div class="inputBar">
+                    <input type="password" placeholder="비밀번호" class="passInput"/>
+                </div>
+                <div class="inputBar">
+                    <input type="password" placeholder="비밀번호 확인" class="passInput"/>
+                </div>
+                <div class="inputBar">
+                    <input type="text" placeholder="이름" class="idInput"/>
+                </div>
+                <div style="display: flex;">
+                    <div class="inputBar1">
+                        <b>010 - </b>
+                    </div>
+                    <div class="inputBar2">
+                        <input type="text" placeholder="전화번호" class="idInput"/>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="inputBar2">
+                        <input type="text" placeholder="이메일" class="idInput"/>
+                    </div>
+                    <div class="inputBar1">
+                        <select name="emailLocal">
+                            <option value="">직접입력</option>
+                            <option value="naver">naver.com</option>
+                            <option value="daum">daum.net</option>
+                            <option value="nate">nate.net</option>
+                            <option value="gmail">gmail.com</option>
+                        </select>
+                    </div>
                 </div>
             </div>
-            <div style="display: flex;">
-                <div class="inputBar2">
-                    <input type="text" placeholder="이메일" class="idInput"/>
-                </div>
-                <div class="inputBar1">
-                    <select name="emailLocal">
-                        <option value="">직접입력</option>
-                        <option value="naver">naver.com</option>
-                        <option value="daum">daum.net</option>
-                        <option value="nate">nate.net</option>
-                        <option value="gmail">gmail.com</option>
-                    </select>
-                </div>
+            <div style="display: flex; justify-content: center; width: 100%;">
+                <button type="button" class="joinBtn">회원가입</button>
             </div>
-        </div><br><br>
-        <div style="display: flex; justify-content: center; width: 100%;">
-            <button type="button" class="loginBtn">로그인</button>
         </div>
     </div>
 </body>
