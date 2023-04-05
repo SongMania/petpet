@@ -22,3 +22,26 @@ const nextSlide = () => {
 
 // 자동 슬라이드 시작
 slideInterval = setInterval(nextSlide, intervalTime);
+
+//상품 수량 체크용
+function proCount(type) {
+  // 결과를 표시할 element
+  const resultElement = document.getElementById("result");
+
+  // 현재 화면에 표시된 값
+  let number = resultElement.innerText;
+
+  // 수량 더하고 빼는거
+  if (type === "plus") {
+    number = parseInt(number) + 1;
+  } else if (type === "minus") {
+    if (parseInt(number) <= 0) {
+      number = number;
+    } else {
+      number = parseInt(number) - 1;
+    }
+  }
+
+  // 결과 출력
+  resultElement.innerText = number;
+}
